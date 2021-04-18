@@ -4,7 +4,7 @@
 	<artifactId>tapestry-jpa-seedentity</artifactId>
 	<name>Tynamo JPA Seedentity</name>
 	<packaging>jar</packaging>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.3.0-SNAPSHOT</version>
 	<description>
 		Object oriented seed entities for your Tapestry 5 JPA application
 	</description>
@@ -16,7 +16,7 @@
 	</parent>
 
 	<properties>
-		<tapestry-release-version>5.5.0</tapestry-release-version>
+		<tapestry-release-version>5.7.2</tapestry-release-version>
 	</properties>
 
 	<dependencies>

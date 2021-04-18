@@ -28,10 +28,10 @@ import javax.persistence.metamodel.Metamodel;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.Type;
 
+import org.apache.tapestry5.commons.services.PropertyAccess;
 import org.apache.tapestry5.ioc.annotations.EagerLoad;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.ioc.annotations.Symbol;
-import org.apache.tapestry5.ioc.services.PropertyAccess;
 import org.apache.tapestry5.jpa.EntityManagerManager;
 import org.slf4j.Logger;
 import org.tynamo.seedentity.SeedEntityIdentifier;

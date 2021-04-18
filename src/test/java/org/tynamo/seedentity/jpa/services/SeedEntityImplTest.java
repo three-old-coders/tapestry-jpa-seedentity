@@ -2,8 +2,8 @@ package org.tynamo.seedentity.jpa.services;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
@@ -15,8 +15,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import org.apache.tapestry5.ioc.internal.services.PropertyAccessImpl;
-import org.apache.tapestry5.ioc.services.PropertyAccess;
+import org.apache.tapestry5.beanmodel.internal.services.PropertyAccessImpl;
+import org.apache.tapestry5.commons.services.PropertyAccess;
 import org.apache.tapestry5.jpa.EntityManagerManager;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeClass;
